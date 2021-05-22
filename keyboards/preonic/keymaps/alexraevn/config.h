@@ -1,5 +1,14 @@
 #pragma once
 
+// raevn +
+#define RGBLIGHT_SLEEP
+// #define RGBLIGHT_EFFECT_SNAKE
+// #define RGBLIGHT_MODE_SNAKE 1
+// #define RGBLIGHT_DEFAULT_HUE 0
+// #define RGBLIGHT_VAL_STEP 15
+#define RGBLITGH_DEFAULT_VAL 45
+#define RGBLIGHT_DEFAULT_SAT 30
+
 #ifdef AUDIO_ENABLE
     #define STARTUP_SONG SONG(PREONIC_SOUND)
     // #define STARTUP_SONG SONG(NO_SOUND)
